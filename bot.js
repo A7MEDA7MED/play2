@@ -25,12 +25,12 @@ const prefix = "2";
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`); //هنا تسجيل بسيط بالكونسل
-client.user.setStatus('idle')// هنا التغيير 
+  client.user.setStatus('idle')// هنا التغيير 
 });
 
 
 client.on('ready', () => {
-    console.log(`${client.user.tag} Is Online !`) 
+    console.log(`${client.user.tag} Is idle !`) 
     client.user.setGame(`Royal Legend Clan . 2help`)
 });
 
